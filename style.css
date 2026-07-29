@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fdfdfd;
+    color: #333;
+  }
+  
+  header {
+    background: #ff9900;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    padding: 60px 20px;
+    text-align: center;
+    background: #ffe5e0;
+  }
+  
+  .info {
+    padding: 40px 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+  }

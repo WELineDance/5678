@@ -1,50 +1,193 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+    margin: 1rem;
+    font-family: 'Quicksand';
     background: #fdfdfd;
     color: #333;
   }
   
   header {
-    background: #ff9900;
-    padding: 20px;
+    background: #cdffe1;
+    padding: 1rem;
     text-align: center;
-    color: white;
+    color: rgb(107, 107, 107);
   }
   
   nav a {
-    margin: 0 15px;
-    color: white;
+    margin: 1rem 0;
+    color: rgb(100, 100, 100);
     text-decoration: none;
     font-weight: bold;
   }
   
   .hero {
-    padding: 60px 20px;
+    padding: 1rem 1.5rem;
+    color: #797979;
     text-align: center;
-    background: #ffe5e0;
+    background: #fff8a7;
   }
   
   .info {
-    padding: 40px 20px;
+    padding: 1rem 1.5rem;
+    color: #797979;
     max-width: 700px;
+    width: 70%;
     text-align: center;
     margin: auto;
   }
   
   footer {
     text-align: center;
-    padding: 20px;
-    background: #eee;
+    padding: 1rem;
+    background: #efefef;
   }
-  h1 { font-size: 2.5rem;}
-  h2 {font-size: 2rem;}
-  h3 {font-size: 1.5rem;}
-  p {font-size: 1rem;}
+
+  .tagline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1.5rem 0;
+  font-size: 1.5rem;
+  font-family: 'Quicksand'; 
+  color: black;
+}
+
+.tagline-logo {
+  height: 3rem;
+  width: auto;
+}
+  
+  h1 {
+    font-size: 2.5rem;}
+
+  h2 {
+    font-size: 2rem;}
+
+  h3 {
+    font-size: 1rem;}
+
+  p {
+    font-size: 1rem;}
 
   @media (max-width: 600px) {
     h1 { font-size: 2rem; }
     h2 { font-size: 1.5rem; }
     h3 { font-size: 1.25rem; }
     p  { font-size: 1rem; }
+  }
+
+  .button {
+    background: 4321ff;
+    color: black;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .social-icon {
+    width: 1.5rem;
+    height: auto;
+    margin: 1rem;
+  }
+
+  .social-icon:hover {
+    opacity: .8;
+  }
+
+  nav a{
+    padding: .5rem 1rem;
+    border: .08rem solid transparent;
+    border-radius: .5rem;
+    transition: .2s;
+  }
+
+  nav a:hover {
+    border-radius: .5rem;
+    border-color: #797979;
+  }
+
+  .friendsmas {
+    background-color: #fdbcbc;
+    padding: 2rem;
+    border-radius: 3rem;
+    margin: 2rem 0;
+  }
+
+  .TaylorSwift{
+    background-color: #e3fdbc;
+    padding: 2rem;
+    border-radius: 3rem;
+    margin: 2rem 0;
+  }
+
+  .DownsProm{
+    background-color: #bcc7fd;
+    padding: 2rem;
+    border-radius: 3rem;
+    margin: 2rem 0;
+  }
+
+  .AdultProm{
+    background-color: #fddfbc;
+    padding: 2rem;
+    border-radius: 3rem;
+    margin: 2rem 0;
+  }
+
+  .Bonkers{
+    background-color: #bcfdf4;
+    padding: 2rem;
+    border-radius: 3rem;
+    margin: 2rem 0;
+  }
+
+  .AlaskanCruise{
+    background-color: #bccdfd;
+    padding: 2rem;
+    border-radius: 3rem;
+    margin: 2rem 0;
+  }
+
+  .xmas-flier-link{
+    font-size: 1.3rem;
+  }
+  .xmas-register-link{
+    font-size: 1.3rem;
+  }
+
+  .TSFlier-link{
+    font-size: 1.3rem;
+  }
+  .TSregister-link{
+    font-size: 1.3rem;
+  }
+
+  .AdultPromFlierLink{
+    font-size: 1.3rem;
+  }
+  .AdultPromRegisterLink{
+    font-size: 1.3rem;
+  }
+
+  .BonkersFlierLink{
+    font-size: 1.3rem;
+  }
+  .BonkerRegisterLink{
+    font-size: 1.3rem;
+  }
+
+  .AlaskaFlierLink{
+    font-size: 1.3rem;
+  }
+  .AlaskaRegisterLink{
+    font-size: 1.3rem;
+  }
+
+  .friendsmas-title{
+    font-size: 2.2rem;
+  }
+  .redlogo{
+    height: 5rem;
+    width: auto;
   }

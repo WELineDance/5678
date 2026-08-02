@@ -5,28 +5,29 @@ body {
     color: #333;
   }
   
-  header {
+header {
     background: #cdffe1;
     padding: 1rem;
     text-align: center;
     color: rgb(107, 107, 107);
+    margin-bottom: .5rem;
   }
   
-  nav a {
+nav a {
     margin: 1rem 0;
     color: rgb(100, 100, 100);
     text-decoration: none;
     font-weight: bold;
   }
   
-  .hero {
+.slogan {
     padding: 1rem 1.5rem;
     color: #797979;
     text-align: center;
     background: #fff8a7;
   }
   
-  .info {
+.main-title {
     padding: 1rem 1.5rem;
     color: #797979;
     max-width: 700px;
@@ -35,13 +36,14 @@ body {
     margin: auto;
   }
   
-  footer {
+footer {
     text-align: center;
     padding: 1rem;
     background: #efefef;
+    gap: 1rem;
   }
 
-  .tagline {
+.tagline {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,26 +59,26 @@ body {
   width: auto;
 }
   
-  h1 {
+h1 {
     font-size: 2.5rem;}
 
-  h2 {
+h2 {
     font-size: 2rem;}
 
-  h3 {
+h3 {
     font-size: 1rem;}
 
-  p {
+p {
     font-size: 1rem;}
 
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
     h1 { font-size: 2rem; }
     h2 { font-size: 1.5rem; }
     h3 { font-size: 1.25rem; }
     p  { font-size: 1rem; }
   }
 
-  .button {
+.button {
     background: 4321ff;
     color: black;
     padding: 1rem 1.5rem;
@@ -85,109 +87,141 @@ body {
     font-weight: bold;
   }
 
-  .social-icon {
+.social-icon {
     width: 1.5rem;
     height: auto;
     margin: 1rem;
   }
 
-  .social-icon:hover {
+.social-icon:hover {
     opacity: .8;
   }
 
-  nav a{
+nav a{
     padding: .5rem 1rem;
     border: .08rem solid transparent;
     border-radius: .5rem;
     transition: .2s;
   }
 
-  nav a:hover {
+nav a:hover {
     border-radius: .5rem;
     border-color: #797979;
   }
 
-  .friendsmas {
+.friendsmas {
     background-color: #fdbcbc;
     padding: 2rem;
     border-radius: 3rem;
     margin: 2rem 0;
   }
 
-  .TaylorSwift{
+.TaylorSwift{
     background-color: #e3fdbc;
     padding: 2rem;
     border-radius: 3rem;
     margin: 2rem 0;
   }
 
-  .DownsProm{
+.DownsProm{
     background-color: #bcc7fd;
     padding: 2rem;
     border-radius: 3rem;
     margin: 2rem 0;
   }
 
-  .AdultProm{
+.AdultProm{
     background-color: #fddfbc;
     padding: 2rem;
     border-radius: 3rem;
     margin: 2rem 0;
   }
 
-  .Bonkers{
+.Bonkers{
     background-color: #bcfdf4;
     padding: 2rem;
     border-radius: 3rem;
     margin: 2rem 0;
   }
 
-  .AlaskanCruise{
+.AlaskanCruise{
     background-color: #bccdfd;
     padding: 2rem;
     border-radius: 3rem;
     margin: 2rem 0;
   }
 
-  .xmas-flier-link{
+.xmas-flier-link{
     font-size: 1.3rem;
   }
-  .xmas-register-link{
-    font-size: 1.3rem;
-  }
-
-  .TSFlier-link{
-    font-size: 1.3rem;
-  }
-  .TSregister-link{
+.xmas-register-link{
     font-size: 1.3rem;
   }
 
-  .AdultPromFlierLink{
+.TSFlier-link{
     font-size: 1.3rem;
   }
-  .AdultPromRegisterLink{
-    font-size: 1.3rem;
-  }
-
-  .BonkersFlierLink{
-    font-size: 1.3rem;
-  }
-  .BonkerRegisterLink{
+.TSregister-link{
     font-size: 1.3rem;
   }
 
-  .AlaskaFlierLink{
+.AdultPromFlierLink{
     font-size: 1.3rem;
   }
-  .AlaskaRegisterLink{
+.AdultPromRegisterLink{
     font-size: 1.3rem;
   }
 
-  .friendsmas-title{
+.BonkersFlierLink{
+    font-size: 1.3rem;
+  }
+.BonkerRegisterLink{
+    font-size: 1.3rem;
+  }
+
+.AlaskaFlierLink{
+    font-size: 1.3rem;
+  }
+.AlaskaRegisterLink{
+    font-size: 1.3rem;
+  }
+
+.friendsmas-title{
     font-size: 2.2rem;
   }
-  .redlogo{
+.redlogo{
     height: 5rem;
     width: auto;
   }
+
+.bio-section {
+  display: flex;
+  gap: 1rem;          /* space between the two bios */
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.bio {
+  flex: 1;            /* makes both bios equal width */
+  background: #f7f7f7;
+  padding: 1rem;
+  border-radius: 3px;
+  text-align: center;
+}
+.about-us{
+  text-align: center;
+  color: #797979;
+  padding: 1rem;
+}
+.heather{
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.kristen{
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.footer-section {
+}

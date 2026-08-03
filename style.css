@@ -19,14 +19,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
   }
-  
-.slogan {
-    padding: 1rem 1.5rem;
-    color: #797979;
-    text-align: center;
-    background: #fff8a7;
-  }
-  
+
 .main-title {
     padding: 1rem 1.5rem;
     color: #797979;
@@ -34,8 +27,36 @@ nav a {
     width: 70%;
     text-align: center;
     margin: auto;
+  }  
+
+.slogan {
+    padding: 1rem 1.5rem;
+    color: #797979;
+    text-align: center;
+    background: #fff8a7;
   }
-  
+
+.about-us{
+  text-align: center;
+  color: #797979;
+  padding: 1rem;
+}
+
+.bio-section {
+  display: flex;
+  gap: 1rem;          /* space between the two bios */
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.bio {
+  flex: 1;            /* makes both bios equal width */
+  background: #f7f7f7;
+  padding: 1rem;
+  border-radius: 3px;
+  text-align: center;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
@@ -60,16 +81,20 @@ footer {
 }
   
 h1 {
-    font-size: 2.5rem;}
+    font-size: 2.5rem;
+  }
 
 h2 {
-    font-size: 2rem;}
+    font-size: 2rem;
+  }
 
 h3 {
-    font-size: 1rem;}
+    font-size: 1.5rem;
+  }
 
 p {
-    font-size: 1rem;}
+    font-size: 1rem;
+  }
 
 @media (max-width: 600px) {
     h1 { font-size: 2rem; }
@@ -88,7 +113,7 @@ p {
   }
 
 .social-icon {
-    width: 1.5rem;
+    width: 2rem;
     height: auto;
     margin: 1rem;
   }
@@ -194,25 +219,7 @@ nav a:hover {
     width: auto;
   }
 
-.bio-section {
-  display: flex;
-  gap: 1rem;          /* space between the two bios */
-  justify-content: space-between;
-  margin-bottom: 1rem;
-}
 
-.bio {
-  flex: 1;            /* makes both bios equal width */
-  background: #f7f7f7;
-  padding: 1rem;
-  border-radius: 3px;
-  text-align: center;
-}
-.about-us{
-  text-align: center;
-  color: #797979;
-  padding: 1rem;
-}
 .heather{
   font-size: 2rem;
   padding: 1rem;
